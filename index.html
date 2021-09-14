@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Compute Compound Interest</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/3116cf7d5d85070c2c0d4b96bfee7d8d?family=GeosansLight" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>Compound Interest Computer</h1>
+    <div class="container">
+      <div class="item item-1">Principal: 
+        <input type="number" id="principal">
+      </div>
+
+      <div class="item item-2">Interest Rate (decimal): 
+        <input type="number" id="interestRate">
+      </div>
+
+      <div class="item item-3">Number of Times Compounded per Year: 
+        <input type="number" id="numCompounded">
+      </div>        
+      
+      <div class="item item-4">Total Number of Years: 
+        <input type="number" id="numYears">
+      </div>
+
+      <div class="item item-5">Compound Interest: 
+        <span id="compInterestResult"></span>
+      </div>
+    </div>
+
+    <img src="compoundinterest.jpeg" alt="Compound Interest Formula" id="image">
+
+    <div class="button"> <button 
+    onclick="window.location.href = 'https://www.businessinsider.com/what-is-compound-interest';">
+        Click Here for More Info!
+    </button> </div>
+    <footer> Github Repo </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
