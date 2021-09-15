@@ -1,6 +1,6 @@
 # Compound Interest Computer
 
-### Author
+## Author
 Emin Torlic
 
 ### General Information
