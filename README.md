@@ -3,7 +3,7 @@
 ## Author
 Emin Torlic
 
-### General Information
+### About
 *Website solely using Javascript, HTML, and CSS.*
 This web page computes the compound interest based off user input. 
 User input within the text box only allows numbers. Whenever there is 
